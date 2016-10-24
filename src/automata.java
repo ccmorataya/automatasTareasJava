@@ -27,7 +27,7 @@ class automata {
                 if (cPrev != '1')
                     status = 0;
             }
-            else if (status == 2 && c == '1' && cPrev != '1') {
+            else if (status == 2 && c == '1' && cPrev != '\uFFFF') {
                 status = 3;
             }
             else if(status == 3 && c == '0' && cPrev != '\uFFFF') {
