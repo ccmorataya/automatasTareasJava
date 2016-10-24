@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Ingresa la cadena a validar:");
         cadena = datos.nextLine();
-        if (automata.imparesCerosUnos())
+        if (automata.imparesCerosUnos(cadena))
             System.out.println("La cadena " + cadena + " es valida.");
         else
             System.out.println("La cadena " + cadena + " es invalida");
